@@ -12,6 +12,7 @@ jobs:
               uses: actions/setup-java@v5
               with:
                 java-version: java 17
+                distriubtion: temurin
             - name: check the code
               run: java --version
         
